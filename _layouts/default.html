@@ -14,9 +14,12 @@
 </head>
 <body>
 <div class="wrapper">
-    <header>
+    <header id="sidebar">
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
+        <img src="{{ '/assets/images/michaela.jpg' }}" alt="michaela"/>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
+        <br />
+        <a href="404.html">Download Resume (PDF)</a>
     </header>
 
     <section>
